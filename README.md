@@ -1,98 +1,123 @@
-# SilkSong-Hacks
-SilkSong Hacks
-rmrgvg
+===============================================
+        SilkSong Hacks - README
+===============================================
+Report issues: @rmrgvg
 
-Original Hub https://github.com/sinai-dev/UnityExplorer
+[ENGLISH]
 
-📖 README – UnityExplorer for Hollow Knight: Silksong
-🇬🇧 English
-What is this?
+Description
+-----------
+SilkSong Hacks is an all-in-one tool to modify Hollow Knight: Silksong in real time.  
+It is based on Unity Explorer(Sinai) and MelonLoader(Lava), but everything is already integrated in a single package.
 
-This package contains everything you need to install MelonLoader and use UnityExplorer inside Hollow Knight: Silksong. With UnityExplorer you can inspect and modify values in real time while the game is running.
+With this utility you can:
+- Change internal game parameters on the fly.
+- Navigate with a free camera.
+- Write and execute your own C# code inside the game.
+- Explore objects, components, and scenes with an intuitive interface.
 
-Included
+Requirements
+------------
+- PC version of Hollow Knight: Silksong
+- Windows 10/11 (64-bit)
+- .NET 6 Runtime (if required by the game)
 
-MelonLoader.Installer.exe
+Installation
+------------
+1. Download the SilkSong Hacks .zip file.
+2. Extract ALL files directly into the Silksong installation folder  
+   (example: C:\Program Files (x86)\Silksong\).
+3. Launch the game normally: the mod loader will start automatically.
 
-UnityExplorer.ML.Mono.dll
+Basic Usage
+-----------
+- Press F7 (default) to open the integrated Unity Explorer.
+- Use the window to inspect and modify game variables in real time.
+- Press F8 to toggle free camera mode.
+- From the console tab, you can type C# code and apply it instantly.
 
-UniverseLib.Mono.dll
-
-How to install
-
-Run MelonLoader.Installer.exe.
-
-Select your Silksong.exe.
-
-Let it install (it will create a Mods/ folder in your game directory).
-
-Copy both DLL files into the Mods/ folder:
-
-Silksong/
-└── Mods/
-    ├── UnityExplorer.ML.Mono.dll
-    └── UniverseLib.Mono.dll
-
-
-Launch the game normally. A black console window from MelonLoader will appear.
-
-In game, press:
-
-F7 → open UnityExplorer main window.
-
-Ctrl+F7 → open Scene Explorer.
+Default Shortcuts
+-----------------
+F7  → Open Unity Explorer  
+F8  → Enable / disable free camera  
+F9  → Open code console  
+CTRL + ALT + R → Reload mods without restarting the game  
 
 Notes
+-----
+- SilkSong Hacks modifies the game in real time: use at your own risk.  
+- Changing critical parameters may cause instability or crashes.  
+- Recommended for testing and experimentation, not for main save files.  
+- This is not an official Team Cherry tool and has no affiliation with them.  
 
-UnityExplorer only changes values in memory. Some changes will take effect immediately (speed, gravity, etc.), others may reset each frame depending on how the game is coded.
+Credits
+-------
+Author: @rmrgvg
+Based on:  
+- Unity Explorer (embedded version)  
+- MelonLoader  
 
-Requires .NET Framework 4.7.2 or later.
+Integration & Packaging:  
+- SilkSong Hacks Project (v1.0)  
 
-Works with Mono builds of Unity games (Silksong is Mono).
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🇪🇸 Español
-¿Qué es esto?
+===============================================
+[ESPAÑOL]
 
-Este paquete contiene todo lo necesario para instalar MelonLoader y usar UnityExplorer dentro de Hollow Knight: Silksong. Con UnityExplorer puedes inspeccionar y modificar valores en tiempo real mientras el juego está en ejecución.
+Descripción
+-----------
+SilkSong Hacks es una herramienta todo-en-uno para modificar Hollow Knight: Silksong en tiempo real.  
+Está basada en Unity Explorer(Sinai) y MelonLoader(Lava), pero ya viene integrada en un único paquete listo para usar.
 
-Incluye
+Con esta utilidad podrás:
+- Manipular parámetros internos del juego en caliente.
+- Navegar con la cámara libremente.
+- Escribir y ejecutar tu propio código en C# dentro del juego.
+- Explorar objetos, componentes y escenas con una interfaz intuitiva.
 
-MelonLoader.Installer.exe
+Requisitos
+----------
+- Versión de PC de Hollow Knight: Silksong
+- Windows 10/11 (64-bit)
+- .NET 6 Runtime (si el juego lo requiere)
 
-UnityExplorer.ML.Mono.dll
+Instalación
+-----------
+1. Descarga el archivo .zip de SilkSong Hacks.
+2. Descomprime TODOS los archivos directamente en la carpeta de instalación de Silksong  
+   (ejemplo: C:\Program Files (x86)\Silksong\).
+3. Inicia el juego normalmente: el cargador de mods se ejecutará de forma automática.
 
-UniverseLib.Mono.dll
+Uso básico
+----------
+- Pulsa F7 (por defecto) para abrir Unity Explorer integrado.
+- Usa la ventana para inspeccionar y modificar variables del juego en tiempo real.
+- Pulsa F8 para activar/desactivar la cámara libre.
+- Desde la pestaña de consola puedes escribir código C# y aplicarlo al instante.
 
-Cómo instalar
+Atajos por defecto
+------------------
+F7  → Abrir Unity Explorer  
+F8  → Activar / desactivar cámara libre  
+F9  → Abrir consola de código  
+CTRL + ALT + R → Recargar mods sin reiniciar el juego  
 
-Ejecuta MelonLoader.Installer.exe.
+Notas importantes
+-----------------
+- SilkSong Hacks modifica el juego en tiempo real: úsalo bajo tu propia responsabilidad.  
+- Alterar parámetros críticos puede causar inestabilidad o cierres inesperados.  
+- Recomendado para pruebas y experimentación, no para tu partida principal.  
+- No es una herramienta oficial de Team Cherry ni está vinculada con ellos.  
 
-Selecciona tu Silksong.exe.
+Créditos
+--------
+Autor: @rmrgvg
+Basado en:  
+- Unity Explorer (versión integrada)  
+- MelonLoader  
 
-Deja que instale (creará una carpeta Mods/ en el directorio del juego).
+Integración y empaquetado:  
+- Proyecto SilkSong Hacks (v1.0)  
 
-Copia los dos DLL en la carpeta Mods/:
-
-Silksong/
-└── Mods/
-    ├── UnityExplorer.ML.Mono.dll
-    └── UniverseLib.Mono.dll
-
-
-Lanza el juego normalmente. Verás una ventana negra de consola de MelonLoader.
-
-Dentro del juego, pulsa:
-
-F7 → abrir la ventana principal de UnityExplorer.
-
-Ctrl+F7 → abrir el inspector de escenas.
-
-Notas
-
-UnityExplorer solo cambia valores en memoria. Algunos cambios se verán al instante (velocidad, gravedad, etc.), otros pueden reiniciarse cada frame según la programación del juego.
-
-Requiere .NET Framework 4.7.2 o superior.
-
-Funciona con juegos de Unity en Mono (Silksong es Mono).
-
-👉 ¿Quieres que además te lo formatee en un README.md con títulos y bloques de código listos para GitHub/zip release?
+===============================================
+End of README
+===============================================
