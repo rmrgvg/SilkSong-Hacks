@@ -8,6 +8,7 @@ Report issues: @rmrgvg
 Description
 -----------
 SilkSong Hacks is an all-in-one tool to modify Hollow Knight: Silksong in real time.  
+Just Unzip it in SilkSOng Folder and play.
 It is based on Unity Explorer(Sinai) and MelonLoader(Lava), but everything is already integrated in a single package.
 
 With this utility you can:
@@ -66,6 +67,7 @@ Integration & Packaging:
 Descripción
 -----------
 SilkSong Hacks es una herramienta todo-en-uno para modificar Hollow Knight: Silksong en tiempo real.  
+Solo descomprime en la carpeta de SilkSong y juega.
 Está basada en Unity Explorer(Sinai) y MelonLoader(Lava), pero ya viene integrada en un único paquete listo para usar.
 
 Con esta utilidad podrás:
